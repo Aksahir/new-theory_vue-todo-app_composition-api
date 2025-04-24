@@ -1,7 +1,7 @@
 <script setup>
-  // import { defineProps, defineEmits } from 'vue';
+  import { defineProps, defineEmits } from 'vue';
 
-  emit = defineEmits(["update:modelValue"]);
+  defineEmits(["update:modelValue"]);
   defineProps({ modelValue: String });
 </script>
 
